@@ -1,9 +1,43 @@
-body{
+.body{
     background: no-repeat url(/assets/Img/bg2.jpg);
-    width: 101.1%;
-    height: 1000px;
+    width: 112%;
+    position: relative;
+    left: -10%;
+    height: 805px;
     margin-left: -10px;
     margin-top: -21px;
     padding-top: 21px;
 }
 
+@-webkit-keyframes redBox {
+    0% {
+      left: 100px;
+    }
+    100% {
+      left: 400px;
+    }
+
+  }
+  @-moz-keyframes redBox {
+    0% {
+      left: 100px;
+    }
+    100% {
+      left: 400px;
+    }
+
+  }
+
+  #idDiv {
+    position: relative;
+    left: 400px;
+    -webkit-animation: redBox 5s ;
+    -moz-animation: redBox 5s ;
+    animation: redBox 5s ;
+  }
+
+  #idDiv img{
+      height: 520px;
+      position: relative;
+      top: 290px;
+  }
