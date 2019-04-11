@@ -3,7 +3,7 @@
 body{
     background: no-repeat url(/assets/Img/Bg1.png);
     width: 101.1%;
-    height: 400%;
+    height: 1000px;
     margin-left: -10px;
     margin-top: -21px;
     padding-top: 21px;
@@ -27,6 +27,9 @@ body{
     text-align: center;
     transform: rotate(-8deg);
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
 
+.textIntro{
+    color: white;
 }
 
