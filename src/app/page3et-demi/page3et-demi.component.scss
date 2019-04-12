@@ -17,18 +17,18 @@
 
 @-webkit-keyframes chewbie1 {
     0% {
-      left: 100px;
+      left: -800px;
     }
     100% {
-      left: 400px;
+      left: 00px;
     }
 
 }
 
 #idDiv {
     position: relative;
-    left: 400px;
-    top: -1350px;
+    left: 00px;
+    top: -1050px;
     animation: chewbie1 5s ;
 }
 
@@ -40,6 +40,6 @@
 
 #bb8 {
     position: relative;
-    top: -1900px;
-    left: 500px;
+    top: -2200px;
+    left: 1100px;
 }
