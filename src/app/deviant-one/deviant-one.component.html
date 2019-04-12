@@ -1,0 +1,10 @@
+<body>
+    <div class="question">
+      <h3>Do You Want <br> To Follow Yoda advices ?</h3>
+      <button>Yes of course</button>
+      <button (click)="modale()">No, i don't need advices</button>
+    </div>
+    <div *ngIf="show" class="modale" >
+      <img class="modgif" alt="modgif"  src="https://media.giphy.com/media/d2W7eZX5z62ziqdi/source.gif" />
+    </div>
+  </body>

@@ -9,6 +9,11 @@ import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { Page4Component } from './page4/page4.component';
 import { Page3etDemiComponent } from './page3et-demi/page3et-demi.component';
+import { DeviantOneComponent } from './deviant-one/deviant-one.component';
+import { DeviantTwoComponent } from './deviant-two/deviant-two.component';
+import { DeviantThreeComponent } from './deviant-three/deviant-three.component';
+import { FooterComponent } from './footer/footer.component';
+import { TasoeurComponent } from './tasoeur/tasoeur.component';
 import { Page5Component } from './page5/page5.component';
 
 @NgModule({
@@ -20,6 +25,11 @@ import { Page5Component } from './page5/page5.component';
     Page2Component,
     Page4Component,
     Page3etDemiComponent,
+    DeviantOneComponent,
+    DeviantTwoComponent,
+    DeviantThreeComponent,
+    FooterComponent,
+    TasoeurComponent,
     Page5Component,
   ],
   imports: [
