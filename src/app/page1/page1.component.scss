@@ -1,4 +1,4 @@
-.body{
+.body {
     background: no-repeat url(/assets/Img/bg2.jpg);
     width: 112%;
     position: relative;
@@ -9,7 +9,9 @@
     padding-top: 21px;
 }
 
-@-webkit-keyframes redBox {
+/* Anim chewbie 1 */
+
+@-webkit-keyframes chewbie1 {
     0% {
       left: 100px;
     }
@@ -17,27 +19,105 @@
       left: 400px;
     }
 
-  }
-  @-moz-keyframes redBox {
-    0% {
-      left: 100px;
-    }
-    100% {
-      left: 400px;
-    }
+}
 
-  }
-
-  #idDiv {
+#idDiv {
     position: relative;
     left: 400px;
-    -webkit-animation: redBox 5s ;
-    -moz-animation: redBox 5s ;
-    animation: redBox 5s ;
-  }
+    animation: chewbie1 5s ;
+}
 
-  #idDiv img{
+#idDiv img{
       height: 520px;
       position: relative;
       top: 290px;
+}
+
+/* Anim text 1 */
+
+.textPage1{
+      width: 20%;
+      position: relative;
+      padding: 5px;
+      padding-left: 10px;
+      left: -1000px;
+      top: -30%;
+      border: solid 1px;
+      font-family: sans-serif;
+      font-size: 30px;
+      -webkit-animation: animTxt1 5s ;
+      -moz-animation: animTxt1 5s ;
+      animation: animTxt1 5s ;
+  
+}
+
+@-webkit-keyframes animTxt1 {
+    0% {
+      left: 1300px;
+    }
+    70% {
+      left: 900px;
+    }
+    100% {
+        left: -1500px;
+    }
+}
+
+/* Anim Yoda */
+
+
+@-webkit-keyframes yoda1 {
+    0% {
+      left: 2000px;
+    }
+    100% {
+      left: 600px;
+    }
+}
+
+#animYoda {
+    position: relative;
+    top: -700px;
+    left: 600px;
+    -webkit-animation: yoda1 5s ;
+    -moz-animation: yoda1 5s ;
+    animation: yoda1 15s ;
+}
+
+
+#animYoda img {
+      height: 520px;
+      position: relative;
+      top: 290px;
+}
+
+/* Anim text  2 */
+
+.textPage2{
+    width: 20%;
+    position: relative;
+    padding: 35px;
+    padding-left: 20px;
+    left: 600px;
+    top: -1225px;
+    border: solid 1px;
+    border-radius: 60%;
+    font-family: sans-serif;
+    font-size: 30px;
+    -webkit-animation: animTxt2 5s ;
+    -moz-animation: animTxt2 5s ;
+    animation: animTxt2 15s ;
+    text-align: center;
+}
+
+@-webkit-keyframes animTxt2 {
+  0% {
+    left: -1300px;
   }
+  30% {
+    left: 0px;
+  }
+  100% {
+      left: 600px;
+  }
+}
